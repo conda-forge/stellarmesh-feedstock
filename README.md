@@ -9,6 +9,14 @@ Package license: MIT
 
 Summary: Meshing library for nuclear workflows
 
+Development: https://github.com/stellarmesh/stellarmesh
+
+Stellarmesh is a meshing library for nuclear workflows. Principally, it
+supports the creation of DAGMC geometry from CAD models using the gmsh
+library. Stellarmesh supports both build123d and CadQuery for geometry
+construction but does not depend on either.
+
+
 Current build status
 ====================
 
