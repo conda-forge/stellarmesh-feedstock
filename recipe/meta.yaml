@@ -16,13 +16,13 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.11
     - pip
     - setuptools
   run:
-    - python>=3.11
+    - python >=3.11
     - python-gmsh
-    - ocp>=7.7.2.1
+    - ocp >=7.7.2.1
     - moab
     - numpy
     - mmgsuite
