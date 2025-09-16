@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.11
+    - python
     - pip
     - setuptools
   run:
-    - python >=3.11
+    - python
     - python-gmsh
     - ocp >=7.7.2.1
     - moab
