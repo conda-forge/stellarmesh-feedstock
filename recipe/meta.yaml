@@ -1,5 +1,5 @@
 {% set name = "stellarmesh" %}
-{% set version = "1.1.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ae62b8ab4c0a6bf578fc56d59498404e4cdcfd805b8dbb18aefbb619b32b044b
+  sha256: 7152e252fd7b90516e9a3f5ac8c7a40364bc60bc8481db0f1ecf2efb0ad8854c
 
 build:
   number: 0
