@@ -11,9 +11,10 @@ Summary: Meshing library for nuclear workflows
 
 Development: https://github.com/stellarmesh/stellarmesh
 
+Documentation: https://stellarmesh.readthedocs.io/
+
 Stellarmesh is a meshing library for nuclear workflows. Principally, it
 supports the creation of DAGMC geometry from CAD models.
-doc_url: https://stellarmesh.readthedocs.io/
 
 
 Current build status
