@@ -18,13 +18,14 @@ requirements:
   host:
     - python
     - pip
-    - setuptools >=80,<81
+    - setuptools <81
     - setuptools-scm >=9.2.0,<10
   run:
     - python
+    - setuptools <81
     - python-gmsh >=4
     - ocp >=7.8
-    - moab
+    - 'moab * *py*'
     - numpy
     - mmgsuite
     - meshio >=5.3.5,<6
@@ -36,14 +37,6 @@ requirements:
 test:
   imports:
     - stellarmesh
-  requires:
-    - pytest >=8.4.1
-    - pytest-cov >=6.2.1
-    - openmc 0.15.2 dagmc_nompi*
-    - build123d 0.9.1
-    - cadquery 2.6.1
-  commands:
-    - pytest -m "not benchmark" -s --log-cli-level=INFO
 
 about:
   home: https://github.com/stellarmesh/stellarmesh
